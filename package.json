@@ -1,0 +1,38 @@
+{
+  "name": "yuta-cursed-ban-checker",
+  "version": "1.0.0",
+  "description": "Outil de vérification de bannissement WhatsApp - Thème Yuta Okkotsu (Jujutsu Kaisen)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build complet - application prête'",
+    "serve": "npm start"
+  },
+  "keywords": [
+    "whatsapp",
+    "ban-checker",
+    "yuta-okkotsu",
+    "jujutsu-kaisen",
+    "cursed-energy",
+    "anime-theme"
+  ],
+  "author": "LORD AZIZ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
